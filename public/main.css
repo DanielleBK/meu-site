@@ -1,0 +1,181 @@
+#bar {
+  padding: 0 1em;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 7vh;
+}
+
+.main-title {
+  margin-top: 1em;
+  padding-bottom: 3em;
+}
+
+.body {
+  position: relative;
+  bottom: 45px;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+main {
+  margin-top: 5em;
+}
+
+.h1{
+  font-family: 'Permanent Marker', cursive !important;
+  text-shadow: gray -3px -3px;
+  margin-left: 30px;
+}
+
+.defalt-titles {
+  font-size: 2.5em;
+  font-family: 'Permanent Marker', cursive !important;
+}
+
+.defalt-col {
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  align-content: center;
+  width: 100%;
+}
+
+.defalt-paragraf {
+  margin: 1.5em 3em 1.5em 3em;
+}
+
+.paral {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.paral h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 160px;
+  line-height: 100px;
+}
+
+.paralsec {
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_960_720.jpg");
+}
+
+.card {
+  padding: 1em;
+  border: darkgrey solid 1px;
+  border-radius: 10px;
+  color: black;
+}
+
+.card-img-top{
+  border: darkgray solid 1px;
+  height: 200px;
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.card-img-top:hover{
+    height: 250px;
+}
+
+.card-title {
+  margin-top: 1em;
+}
+
+footer h4{
+  color: white !important;
+  font-family: 'Permanent Marker', cursive !important;
+  font-size: 2.5em;
+}
+
+#contact{
+  color: yellow;
+}
+#contact:hover{
+  color: red;
+}
+.row10{
+  background-color: whitesmoke;
+  display: flex;
+  margin: 2em;
+}
+
+#formation-col{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: -50px;
+}
+
+#welcome-col{
+  margin-left: 3vh;
+  margin-right: 4vh;
+  font-size: 20px;
+  background-color: black;
+}
+
+.btn:hover{
+  color:azure;
+}
+
+
+.h2c{
+  color: white;
+}
+
+.defalt-col{
+  opacity: 1.5;
+  padding: 10px;
+  color: white;
+}
+
+#h2{
+  font-size: 50px;
+}
+
+.log img{
+  height: 100px;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px; 
+  list-style-type: none;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+#logo:hover{
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+
+}
+
+/* .thumb{
+border-radius: 100%;
+height: 300px;
+width: 300px;
+float: right;
+} */
