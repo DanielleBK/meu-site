@@ -67,7 +67,7 @@ main {
 }
 
 .paralsec {
-  background-image: url("https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_960_720.jpg");
+  background-image: url('assets/Monitor.jpg');
 }
 
 .card {
@@ -173,7 +173,9 @@ footer h4{
 
 }
 
-.navbar-toggler{
-  display: flex;
-  justify-content: end;
-}
+/* .thumb{
+border-radius: 100%;
+height: 300px;
+width: 300px;
+float: right;
+} */
